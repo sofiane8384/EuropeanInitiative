@@ -182,7 +182,7 @@ public class ProcessViewController implements Initializable {
                         @Override
                         public void run() {
                             Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                            alert.setContentText("Process is done without error");
+                            alert.setContentText("Process is done without error !!");
                             alert.showAndWait();
                             intputFileTxt.setText("");
                             outputFiedlTxt.setText("");
